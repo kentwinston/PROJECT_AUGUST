@@ -1,0 +1,126 @@
+div.center{
+    background: red;
+    width: 70%;
+    height: auto;
+    margin: auto;
+    padding-top: 30px;
+}
+div.center>div:nth-child(1){
+    background: green;
+    width: 49.8%;
+    display: inline-block;
+}
+div.center>div:nth-child(1)>img{
+    width: 120px;
+}
+div.center>div:nth-child(2){
+    background: orange;
+    width: 34.8%;
+    height: auto;
+    display: inline-block;
+    text-align: right;
+    position: absolute;
+    padding: 8px 0;
+}
+div.center>div:nth-child(2)>button{
+    background: #000;
+    border: none;
+    padding: 7px 13px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 13px;
+}
+/**entry form**/
+div.center>div:nth-child(3){
+    font-family: arial;
+    font-size: 15px;
+    background: pink;
+    height: auto;
+    color: #000;
+    border: 2px solid blue;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+div.npt{
+    background: rgb(160, 151, 160);
+    width: 95%;
+    margin: auto;
+}
+div.npt form{
+    margin-top: 20px;
+}
+form>div{
+    display: inline-block;
+    background: green;
+    margin: 10px 15px 0 0;
+}
+form>div>input{
+    width: 95%;
+    padding: 5px 0; 
+}
+form>div:nth-child(1){
+    width: 26%;
+}
+form>div:nth-child(2){
+    width: 37%;
+}
+form>div:nth-child(3){
+    width: 26%;
+}
+form>div:nth-child(4){
+    width: 5%;
+}
+form>div:nth-child(5){
+    width: 50%;
+}
+form>div:nth-child(6){
+    width: 20%;
+}
+form>div:nth-child(7){
+    width: 5%;
+}
+/*checkbox*/
+form>div:nth-child(16)>input,:nth-child(29)>input{
+    width: 15px;
+}
+/**Address**/
+form>div:nth-child(9),:nth-child(18){
+    width: 48%;
+}
+form>div:nth-child(10),:nth-child(19){
+    width: 18%;
+}
+form>div:nth-child(12),:nth-child(21){
+    width: 48%;
+}
+form>div:nth-child(13),:nth-child(22){
+    width: 22%;
+}
+form>div:nth-child(14),:nth-child(23){
+    width: 5%;
+}
+/*contact*/
+form>div:nth-child(25){
+    width: 50%;
+}
+form>div:nth-child(26){
+    width: 20%;
+}
+form>div:nth-child(27){
+    width: 5%;
+}
+footer{
+    background: blue;
+    margin: 30px 0;
+    text-align: right;
+}
+footer>button{
+    background: #000;
+    padding: 15px 30px;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 15px;
+}
