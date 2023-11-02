@@ -1,12 +1,12 @@
 div.center{
-    background: red;
+    //background: red;
     width: 70%;
     height: auto;
     margin: auto;
     padding-top: 30px;
 }
 div.center>div:nth-child(1){
-    background: green;
+    //background: green;
     width: 49.8%;
     display: inline-block;
 }
@@ -14,7 +14,7 @@ div.center>div:nth-child(1)>img{
     width: 120px;
 }
 div.center>div:nth-child(2){
-    background: orange;
+    //background: orange;
     width: 34.8%;
     height: auto;
     display: inline-block;
@@ -22,8 +22,12 @@ div.center>div:nth-child(2){
     position: absolute;
     padding: 8px 0;
 }
+a{
+    text-decoration: none;
+    color: #fff;
+}
 div.center>div:nth-child(2)>button{
-    background: #000;
+    background: #ffb20c;
     border: none;
     padding: 7px 13px;
     color: #fff;
@@ -34,29 +38,31 @@ div.center>div:nth-child(2)>button{
 div.center>div:nth-child(3){
     font-family: arial;
     font-size: 15px;
-    background: pink;
+    background: #f2f2f2;
     height: auto;
     color: #000;
-    border: 2px solid blue;
+    border: 2px solid #0b2972;
     margin-top: 30px;
     border-radius: 15px;
 }
 div.npt{
-    background: rgb(160, 151, 160);
+    //background: rgb(160, 151, 160);
     width: 95%;
     margin: auto;
+    color: #959595;
 }
 div.npt form{
     margin-top: 20px;
 }
 form>div{
     display: inline-block;
-    background: green;
+    //background: green;
     margin: 10px 15px 0 0;
 }
 form>div>input{
     width: 95%;
     padding: 5px 0; 
+    border: 1px solid #959595;
 }
 form>div:nth-child(1){
     width: 26%;
@@ -110,12 +116,12 @@ form>div:nth-child(27){
     width: 5%;
 }
 footer{
-    background: blue;
+    //background: blue;
     margin: 30px 0;
     text-align: right;
 }
 footer>button{
-    background: #000;
+    background: #ffb20c;
     padding: 15px 30px;
     color: #fff;
     font-weight: bolder;
