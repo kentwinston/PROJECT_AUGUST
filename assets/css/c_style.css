@@ -1,0 +1,211 @@
+body{
+    font-family: Arial;
+}
+div.center{
+    //background: red;
+    position: relative;
+    width: 70%;
+    height: auto;
+    margin: auto;
+    
+}
+.sub_blur{
+    background: blue;
+    height: 200px;
+    position: relative;
+}
+div.center>div:nth-child(1){
+    //background: green;
+    width: 49.8%;
+    display: inline-block;
+}
+div.center>div:nth-child(1)>img{
+    width: 120px;
+}
+div.center>div:nth-child(2){
+    //background: orange;
+    width: 49.8%;
+    height: auto;
+    display: inline-block;
+    text-align: right;
+    position: absolute;
+    padding: 8px 0;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+div.center>div:nth-child(2)>button{
+    background: #ffb20c;
+    border: none;
+    padding: 7px 13px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 13px;
+}
+div#client_list{
+    font-family: arial;
+    font-size: 15px;
+    background: f2f2f2;
+    height: 800px;
+    color: #707070;
+    border: 2px solid #0b2972;
+    margin-top: 30px;
+    border-radius: 15px;
+    padding: 20px 70px;
+}
+div#client_list>p:nth-child(1){
+    //background: green;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: 10px;
+
+}
+#c_scroll{
+    //background: pink;
+    height: 700px;
+    overflow: auto;
+}
+/* Designing for scroll-bar */
+::-webkit-scrollbar {
+    width: 16px;
+    margin: 90px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: red;
+    border-radius: 5px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: blue;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+table,th,td{
+    border-top: 1px solid #9b979765;
+    border-bottom: 1px solid #9b979765;
+    border-collapse: collapse;
+}
+table {
+    width: 98%;
+    text-align:left;
+    font-size: 18px;
+  }
+tr.head>th{
+    padding:15px 0;
+    letter-spacing:2px;
+    font-size: 19px;
+    background: #9b979765;
+}
+tr.head>th:nth-child(1){
+    width: 10%;
+}
+tr.head>th:nth-child(2){
+    width: 24%;
+}
+tr.head>th:nth-child(3){
+    width: 10%;
+}
+tr.head>th:nth-child(4){
+    width: 3%;
+}
+/*database*/
+tr#rep>td{
+    padding: 10px 0;
+}
+td.magic_btn>button{
+    background: #1640a8;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+}
+td.magic_btn>button:hover{
+    background: #0b2972;
+    
+}
+
+
+/*modal mawala depende sa mood*/
+#empModal{
+    //background: red;
+    position:absolute;
+    top:0;
+    left:0;
+    height:100%;
+    width: 100%;
+}
+.modal-dialog{
+    background: #fff;
+    width: 650px;
+    margin:auto;
+    margin-top:16%;
+    color: #616161;
+    box-shadow: 0 0 1000px 5000px #00000070;
+    border-radius: 15px;
+    padding-bottom: 10px;
+}
+.modal-footer{
+    //background:red;
+    text-align:right;
+    width: 85%;
+    margin: auto;
+}
+.modal-footer>button{
+    width: 80px;
+    padding:8px 0px;
+    border: none;
+    border-radius: 5px;
+    background: #0b2972;
+    font-weight: normal;
+    color: #fff;
+    margin-left: 15px;
+    letter-spacing: 1px;
+    font-size: 14px;
+}
+.modal-footer>button:hover{
+    background: #1640a8;
+}
+/*header naay image*/
+.modal-header{
+    //background:red;
+    width: 90%;
+    margin:auto;
+}
+.modal-header>img{
+    margin-top: 20px;
+    width: 85px
+}
+/*table data*/
+#meta_table{
+    //background:red;
+    margin:auto;
+    width: 90%;
+    border-collapse: collapse;
+    font-size: 16px;
+    border-top: none !important;
+    border-bottom: none !important;
+    }
+#meta_table>tbody>tr>td:nth-child(1){
+    border-right: 2px solid #d7d6d6;
+    width: 35%;
+    border-top: none !important;
+    border-bottom: none !important;
+}
+#meta_table>tbody>tr>td:nth-child(2){
+    padding-left: 10px;   
+    border-top: none !important;
+    border-bottom: none !important;
+}
+#meta_table>tbody>tr>td>p{
+    //background:yellow;
+    margin: 7px 0;
+}
