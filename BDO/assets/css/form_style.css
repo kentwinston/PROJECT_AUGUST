@@ -1,0 +1,199 @@
+
+div.center{
+    //background: red;
+    position: relative;
+    width: 70%;
+    height: auto;
+    margin: auto;
+    
+}
+.sub_blur{
+    background: blue;
+    height: 200px;
+    position: relative;
+}
+div.center>div:nth-child(1){
+    //background: green;
+    width: 49.8%;
+    display: inline-block;
+}
+div.center>div:nth-child(1)>img{
+    width: 120px;
+}
+div.center>div:nth-child(2){
+    //background: orange;
+    width: 49.8%;
+    height: auto;
+    display: inline-block;
+    text-align: right;
+    position: absolute;
+    padding: 8px 0;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+div.center>div:nth-child(2)>button{
+    background: #ffb20c;
+    border: none;
+    padding: 7px 13px;
+    color: #fff;
+    font-weight: bold;
+    border-radius: 13px;
+}
+/**entry form**/
+div.center>div:nth-child(3){
+    font-family: arial;
+    font-size: 15px;
+    background: #f2f2f2;
+    height: auto;
+    color: #000;
+    border: 2px solid #0b2972;
+    margin-top: 30px;
+    border-radius: 15px;
+}
+div.npt{
+    //background: black;
+    width: 95%;
+    margin: auto;
+    color: #959595;
+}
+div.npt form{
+    margin-top: 20px;
+}
+form>div{
+    display: inline-block;
+    //background: green;
+    margin: 10px 15px 0 0;
+}
+form>div>input, select{
+    width: 95%;
+    padding: 5px 0; 
+    border: 1px solid #959595;
+    //background:pink;
+    color: #959595;
+}
+form>div:nth-child(1){
+    width: 26%;
+    //background: violet;
+}
+form>div:nth-child(2){
+    width: 37%;
+}
+form>div:nth-child(3){
+    width: 24%;
+}
+/*suffix*/
+form>div:nth-child(4){
+    width: 6%;
+    //background: violet;
+}
+form>div:nth-child(5){
+    width: 50%;
+}
+/*date off birth*/
+form>div:nth-child(6){
+    width: 20%;
+}
+/*S   E   X*/
+form>div:nth-child(7){
+    width: 6%;
+    //background: violet;
+}
+/*checkbox*/
+form>div:nth-child(16)>input,:nth-child(29)>input{
+    width: 15px;
+}
+/**Address**/
+form>div:nth-child(9),:nth-child(18){
+    width: 48%;
+}
+form>div:nth-child(10),:nth-child(19){
+    width: 18%;
+    
+}
+form>div:nth-child(12),:nth-child(21){
+    width: 22%;
+    //background: violet;
+}
+form>div:nth-child(13),:nth-child(22){
+    width: 22%;
+}
+form>div:nth-child(14),:nth-child(23){
+    width: 6%;
+}
+/*contact*/
+form>div:nth-child(25){
+    width: 20%;
+}
+form>div:nth-child(26){
+    width: 25%;
+}
+form>div:nth-child(27){
+    width: 20%;
+}
+footer{
+    //background: blue;
+    margin: 30px 0;
+    text-align: right;
+}
+footer>span{
+    background: #ffb20c;
+    padding: 15px 30px;
+    color: #fff;
+    font-weight: bolder;
+    font-size: 15px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 15px;
+}
+
+/*PROMPT*/
+div#prompt_in{
+    display:none;
+    visibility: hidden;
+}
+/*SUPER PROMPT*/
+div#prompt{
+    //background: red;
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    display: none;
+}
+div#prompt>div{
+    width: 500px;
+    background: #fff;
+    margin: auto;
+    text-align: center;
+    margin-top: 18%;
+    padding: 60px 20px;
+    border-radius: 15px;
+    font-family: Arial;
+    color: #616161;
+    box-shadow: 0 0 1000px 5000px #00000070;
+}
+div#prompt>div>p:nth-child(1){
+    font-size: 35px;
+    margin: 0;
+}
+div#prompt>div>p:nth-child(2){
+    font-size: 22px;
+    margin: 0;
+}
+div#prompt span>button{
+    margin: 20px 15px 0 15px;
+    width: 85px;
+    border: none;
+    padding: 7px;
+    border-radius: 7px;
+    color: #fff;
+    font-size: 18px;
+}
+div#prompt span>button:nth-child(1){
+    background: #2b77c0;
+}
+div#prompt span>button:nth-child(2){
+    background: #d33;
+}
