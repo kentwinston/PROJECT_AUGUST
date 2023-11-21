@@ -1,3 +1,5 @@
+format ni siya sa database
+
 DATABASE NAME: bdo
 TABLE NAME: bdo_info
 COLUMNS:
@@ -20,4 +22,4 @@ COLUMNS:
     zipcodes1
     telephone_mobile_number
     email_address
-    client_id_number
+    client_id_number (set as primary)
